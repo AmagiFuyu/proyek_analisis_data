@@ -1,3 +1,4 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+import pandas as pd == 2.2.2
+import matplotlib.pyplot as plt == 3.10.0
+import seaborn as sns == 0.13.2
+import streamlit as st == 1.43.1 
