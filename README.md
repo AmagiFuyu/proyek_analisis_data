@@ -26,5 +26,5 @@ import seaborn as sns
 
 # Run Streamlit App
 ```
-!streamlit run proyek_analisis.py & npx localtunnel --port 8501
+!streamlit run proyek_analisis_data.py
 ```
