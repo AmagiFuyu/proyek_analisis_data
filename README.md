@@ -1,7 +1,6 @@
 # proyek_analisis_data
  proyek dari materi analisis data
 
-Nb: aplikasi dijalankan melalui web browser menggunakan local tunnel
 # Bike Sharing Dashboard
 
 # Setup Enviroment Google Colab
@@ -13,18 +12,10 @@ Nb: aplikasi dijalankan melalui web browser menggunakan local tunnel
 
 # Setup Dashboard
 ```
-pip install streamlit
-```
-
-```
-%%writefile proyek_analisis.py
-import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+pip install -r requirements.txt
 ```
 
 # Run Streamlit App
 ```
-!streamlit run proyek_analisis_data.py
+streamlit run dashboard/proyek_analisis_data.py
 ```
