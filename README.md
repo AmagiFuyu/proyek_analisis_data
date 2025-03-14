@@ -1,6 +1,7 @@
 # proyek_analisis_data
  proyek dari materi analisis data
 
+
 # Bike Sharing Dashboard
 
 # Setup Enviroment Google Colab
@@ -13,6 +14,13 @@
 # Setup Dashboard
 ```
 pip install -r requirements.txt
+```
+
+```
+import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 ```
 
 # Run Streamlit App
