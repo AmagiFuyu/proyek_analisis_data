@@ -94,8 +94,8 @@ if 'day_df' in locals() and 'hour_df' in locals():
     # Visualisasi 4: Tren Peminjaman Berdasarkan Cuaca
     st.subheader('Tren Peminjaman Berdasarkan Cuaca')
     fig, ax = plt.subplots(figsize=(8, 5))
-    sns.barplot(x=[weather_mapping[w] for w in sorted(day_df['weathersit'].unique())],
-                y=[filtered_day_df[filtered_day_df['weathersit'] == w]['cnt'].sum() for w in sorted(day_df['weathersit'].unique())],
+    sns.barplot(x=[weather_mapping[w] for w in sorted(filtered_day_df['weathersit'].unique())],
+                y=[filtered_day_df[filtered_day_df['weathersit'] == w]['cnt'].sum() for w in sorted(filtered_day_df['weathersit'].unique())],
                 ax=ax)
     ax.set_ylabel("Jumlah Peminjaman")
     ax.set_title("Tren Peminjaman Berdasarkan Cuaca")
